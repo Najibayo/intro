@@ -86,6 +86,7 @@ input {
     color:hsl(0, 100%, 74%);
     font-weight: 600;
     float: right;
+    margin-top: 5px;
 }
 
 .error-icon {

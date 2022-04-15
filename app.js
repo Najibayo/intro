@@ -1,5 +1,5 @@
 // variables
-submitForm = document.querySelector('.form');
+const submitForm = document.querySelector('.form');
 const email = document.querySelector('#email');
 const firstName = document.querySelector("#firstname");
 const lastName = document.querySelector("#lastname");
@@ -42,13 +42,11 @@ function validate(field) {
         errorIcon.src = 'images/icon-error.svg';
         errorIcon.className = 'error-icon';
         field.parentElement.appendChild(errorIcon);
-        
+
         field.style.border = "2px solid hsl(0, 100%, 74%)";
     }
 
-    if (field.parentElement.classList.contains()) {
-
-    }
+    
 
 
 
